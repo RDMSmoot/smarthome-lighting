@@ -32,7 +32,7 @@ const lights = [
   ['East Upper Bathroom', [17], 'bath'],
   ['West Upper Bathroom', [15], 'bath'],
   ['West Lower Bathroom', [13], 'bath'],
-  ...peopleRooms,
+  ...anonymizedRooms,
 ].sort((a, b) => {
   if (a[0] === b[0]) {
     return 0;
